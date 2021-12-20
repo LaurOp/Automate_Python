@@ -1,0 +1,17 @@
+Sigma:
+    a
+    b
+End
+
+States:
+    1,s
+    2,f
+    3,f
+End
+
+Transitions:
+    1,a,2
+    1,b,3
+    2,a,2
+    3,b,3
+End

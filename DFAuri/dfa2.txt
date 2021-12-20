@@ -1,0 +1,21 @@
+#
+# commentariu 1
+#
+Sigma:
+	a1
+	a2
+	a3
+End
+#
+# comentariu 2
+#
+States:
+	s1,S
+	s2,F
+	s3,F
+End
+Transitions:
+	s1,a2,s1
+	s1,a3,s2
+	s2,a1,s3
+End

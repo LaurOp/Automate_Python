@@ -1,0 +1,73 @@
+Sigma:
+    0
+    1
+End
+
+States:
+    a,s
+    b
+    c
+    d,f
+    e
+    g,f
+    h,f
+    i,f
+    j
+    k,f
+    l,f
+    m
+    n
+    o,f
+    p,f
+    q,f
+    r,f
+    s
+    t,f
+    u,f
+    v
+End
+
+Transitions:
+    a,0,b
+    a,1,c
+    b,0,d
+    b,1,e
+    c,0,n
+    c,1,p
+    d,0,b
+    d,1,g
+    e,0,g
+    e,1,h
+    g,0,e
+    g,1,k
+    h,0,i
+    h,1,j
+    i,0,h
+    i,1,i
+    j,0,i
+    j,1,j
+    k,0,m
+    k,1,l
+    l,0,m
+    l,1,l
+    m,0,l
+    m,1,m
+    n,0,o
+    n,1,q
+    o,0,n
+    o,1,p
+    p,0,q
+    p,1,u
+    q,0,r
+    q,1,s
+    r,0,q
+    r,1,u
+    s,0,t
+    s,1,s
+    t,0,s
+    t,1,t
+    u,0,v
+    u,1,u
+    v,0,u
+    v,1,v
+End

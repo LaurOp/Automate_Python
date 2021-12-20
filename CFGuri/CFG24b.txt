@@ -1,0 +1,16 @@
+Variables:
+A
+B
+End
+Terminals:
+0
+1
+#
+End
+Relations:
+A,0B0
+A,1B1
+B,0B
+B,1B
+B,#
+End

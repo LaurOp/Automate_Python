@@ -1,0 +1,13 @@
+Sigma:
+    0
+    1
+End
+
+States:
+    a,s
+    b,f
+End
+
+Transitions:
+    a,0,b
+End

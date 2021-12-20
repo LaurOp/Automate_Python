@@ -1,0 +1,12 @@
+Variables:
+A
+B
+End
+Terminals:
+0
+1
+#
+End
+Relations:
+A,#
+End
